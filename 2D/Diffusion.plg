@@ -1,0 +1,54 @@
+--------------------Configuration: Diffusion - Win32 Release--------------------
+Begining build with project "F:\Objectives\Numerical Models\Diffusion\Diffusion.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"Fortran 90 Compiler for 80x86" with flags "/real_size:64 /define:"VF" /include:"Release/" /compile_only /nologo /check:bounds /warn:nofileopt /module:"Release/" /object:"Release/" "
+			"Win32 Resource Compiler" with flags "/l 0x419 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/Diffusion.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib /nologo /stack:0x1e8480 /subsystem:console /incremental:no /pdb:"Release/Diffusion.pdb" /machine:I386 /out:"Release/Diffusion.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\DOCUME~1\DENIS\LOCALS~1\Temp\RSP336.tmp" with contents </real_size:64 /define:"VF" /include:"Release/" /compile_only /nologo /check:bounds /warn:nofileopt /module:"Release/" /object:"Release/" 
+"F:\Objectives\Numerical Models\Diffusion\fRHS.f90"
+"F:\Objectives\Numerical Models\Diffusion\GetMass.f90"
+"F:\Objectives\Numerical Models\Diffusion\kron.f90"
+"F:\Objectives\Numerical Models\Diffusion\Test.f90"
+"F:\Objectives\Numerical Models\Diffusion\SwapYX.f90"
+"F:\Objectives\Numerical Models\Diffusion\SwapXY.f90"
+"F:\Objectives\Numerical Models\Diffusion\SaveToDisk.f90"
+"F:\Objectives\Numerical Models\Diffusion\isDiagPredom.f90"
+"F:\Objectives\Numerical Models\Diffusion\DoInY.f90"
+"F:\Objectives\Numerical Models\Diffusion\DoInX.f90"
+>
+Creating temp file "C:\DOCUME~1\DENIS\LOCALS~1\Temp\RSP337.tmp" with contents <kernel32.lib /nologo /stack:0x1e8480 /subsystem:console /incremental:no /pdb:"Release/Diffusion.pdb" /machine:I386 /out:"Release/Diffusion.exe" 
+".\Release\DoInX.obj"
+".\Release\DoInY.obj"
+".\Release\fRHS.obj"
+".\Release\GetMass.obj"
+".\Release\isDiagPredom.obj"
+".\Release\kron.obj"
+".\Release\SaveToDisk.obj"
+".\Release\SwapXY.obj"
+".\Release\SwapYX.obj"
+".\Release\Test.obj"
+"C:\Program Files\DevStudio\DF\IMSL\LIB\SF90MP.LIB"
+"C:\Program Files\DevStudio\DF\IMSL\LIB\SMATHD.LIB">
+Creating command line "link.exe @C:\DOCUME~1\DENIS\LOCALS~1\Temp\RSP337.tmp" 
+Compiling Fortran...
+F:\Objectives\Numerical Models\Diffusion\fRHS.f90
+F:\Objectives\Numerical Models\Diffusion\GetMass.f90
+F:\Objectives\Numerical Models\Diffusion\kron.f90
+F:\Objectives\Numerical Models\Diffusion\Test.f90
+F:\Objectives\Numerical Models\Diffusion\SwapYX.f90
+F:\Objectives\Numerical Models\Diffusion\SwapXY.f90
+F:\Objectives\Numerical Models\Diffusion\SaveToDisk.f90
+F:\Objectives\Numerical Models\Diffusion\isDiagPredom.f90
+F:\Objectives\Numerical Models\Diffusion\DoInY.f90
+F:\Objectives\Numerical Models\Diffusion\DoInX.f90
+Linking...
+
+
+
+Diffusion.exe - 0 error(s), 0 warning(s)
