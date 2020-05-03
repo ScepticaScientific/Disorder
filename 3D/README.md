@@ -2,7 +2,7 @@
 This folder contains files implementing a 3D nonlinear diffusion-reaction model. To start, assemble the project and run `Test.exe`.
 
 ### 3D nonlinear diffusion-reaction model
-A detailed description of the model, with theoretical results and many numerical experiments, can be found in [1-2].
+A detailed description of the model, with theoretical results and many numerical experiments, can be found in [1, 2].
 
 ### Technical issues
 The model was developed in Fortran 90 and tested on Compaq Visual Fortran 6.6 and PGI Visual Fortran 2005. The file `Diffusion3D.dsp` is the Compaq Visual Fortran project file. If you use this compiler, please make sure you have the IMSL libraries `SMATHD.LIB` and `SF90MP.LIB`, as well as Microsoft HPC Pack 2008 R2.
